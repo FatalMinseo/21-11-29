@@ -25,7 +25,7 @@ public class Ex06_야구게임 {
 			int ball = 0;
 			int strike = 0;
 			for (int a = 0; a < result.length; a++) {
-				for (int b = 0 + a; b < result.length; b++)
+				for (int b = 0; b < result.length; b++)
 					if (a == b) {				//  자리가 같으면 값이 같다면 strike 카운트 증가
 						if (result[a] == input[b]) {	
 							strike++;
